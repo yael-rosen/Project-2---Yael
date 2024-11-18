@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cantora+One&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Geist+Mono:wght@100..900&family=Londrina+Sketch&family=Pacifico&family=Space+Grotesk:wght@300..700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #e1edf0;
+}
+
+canvas {
+  display: block;
+}
+
+#user-interface {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#blank-space {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+}
+
+#sketch-holder {
+  display: block;
+  border: 2px solid black;
+}
+
+#button-holder { 
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;                  
+  display: flex; 
+  flex-direction: column;   
+  justify-content: center;  
+  align-items: center; 
+  gap: 10px; 
+  width: 100%;
+  max-width: 200px;
+} 
+
+h1 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  background: #BC88C2;
+}
+
+button:hover {
+  background: #B119C2;
+}
+
+.button-link {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+}
