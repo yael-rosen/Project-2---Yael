@@ -42,17 +42,17 @@ let myDescription = ['Weekend trip to Bologna. This is the Two Towers!',
 
 let myImage = []
 function preload(){
-  myImage[0] = loadImage('assets/Janurary1.jpg');
-  myImage[1] = loadImage('assets/Feburary2.jpg');
-  myImage[2] = loadImage('assets/March3.jpg');
-  myImage[3] = loadImage('assets/April4.jpg');
-  myImage[4] = loadImage('assets/May5.jpg');
-  myImage[5] = loadImage('assets/June6.jpg');
-  myImage[6] = loadImage('assets/July7.jpg');
-  myImage[7] = loadImage('assets/August8.jpg');
-  myImage[8] = loadImage('assets/September9.jpg');
-  myImage[9] = loadImage('assets/October10.jpg');
-  font = loadFont('/assets/SpaceGrotesk-Regular.ttf');
+  myImage[0] = loadImage('./assets/Janurary1.jpg');
+  myImage[1] = loadImage('./assets/Feburary2.jpg');
+  myImage[2] = loadImage('./assets/March3.jpg');
+  myImage[3] = loadImage('./assets/April4.jpg');
+  myImage[4] = loadImage('./assets/May5.jpg');
+  myImage[5] = loadImage('./assets/June6.jpg');
+  myImage[6] = loadImage('./assets/July7.jpg');
+  myImage[7] = loadImage('./assets/August8.jpg');
+  myImage[8] = loadImage('./assets/September9.jpg');
+  myImage[9] = loadImage('./assets/October10.jpg');
+  font = loadFont('./assets/SpaceGrotesk-Regular.ttf');
 }
 
 function setup() {
@@ -139,5 +139,5 @@ function seeDescription() {
   textFont(font);
   textSize(18);
   text('Description:', width/2, 200);
-  text(myDescription[globalIndex], width/2, 275, (maxWidth), (maxHeight));
+  text(myDescription[globalIndex], width/2, 345, (maxWidth), (maxHeight));
 }
